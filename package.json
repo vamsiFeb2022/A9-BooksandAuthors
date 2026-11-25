@@ -5,8 +5,6 @@
   "main": "index.js",
   "scripts": {
     "test": "cucumber-js"
-    //"report":"node report.js open"
-
   },
   "keywords": [],
   "author": "",
