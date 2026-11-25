@@ -1,0 +1,171 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "assignment-9;correct-non-zero-number-of-books-found-by-author",
+        "keyword": "Scenario Outline",
+        "line": 31,
+        "name": "correct non-zero number of books found by author",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 443500
+            },
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "title",
+                      "author"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "The Devil in the White City",
+                      "Erik Larson"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "The Lion, the Witch and the Wardrobe",
+                      "C.S. Lewis"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "In the Garden of Beasts",
+                      "Erik Larson"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "I have the following books in the store",
+            "match": {
+              "location": "features\\support\\partBC-Q1.steps.ts:10"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 218400
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "I search for books by author \"Erik Larson\"",
+            "match": {
+              "location": "features\\support\\partBC-Q1.steps.ts:15"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1090500
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "I find 2 books",
+            "match": {
+              "location": "features\\support\\partBC-Q1.steps.ts:18"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "assignment-9;correct-non-zero-number-of-books-found-by-author",
+        "keyword": "Scenario Outline",
+        "line": 32,
+        "name": "correct non-zero number of books found by author",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 64900
+            },
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "title",
+                      "author"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "The Devil in the White City",
+                      "Erik Larson"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "The Lion, the Witch and the Wardrobe",
+                      "C.S. Lewis"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "In the Garden of Beasts",
+                      "Erik Larson"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "I have the following books in the store",
+            "match": {
+              "location": "features\\support\\partBC-Q1.steps.ts:10"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 101999
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "I search for books by author \"C.S. Lewis\"",
+            "match": {
+              "location": "features\\support\\partBC-Q1.steps.ts:15"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 487099
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "I find 1 books",
+            "match": {
+              "location": "features\\support\\partBC-Q1.steps.ts:18"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "assignment-9",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Assignment 9",
+    "tags": [],
+    "uri": "features\\partBC-Q1.feature"
+  }
+]

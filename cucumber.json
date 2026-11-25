@@ -1,8 +1,11 @@
 {
     "default": {
-       
         "require": [
             "features/support/**/*.steps.ts"
+        ],
+         "format": [
+            "json:./reports/cucmber_report.json",
+            "html:./reports/cucumber_report.html"
         ]
     }
 }
